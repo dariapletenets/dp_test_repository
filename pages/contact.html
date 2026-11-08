@@ -1,74 +1,108 @@
-    <!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-</head>
-<body>
-    <header align="right">
-        <nav>
-            <a href="../index.html">Home</a> | 
-            <a href="pages/contact.html">Contact</a> 
-        </nav>
-    </header>
-   </head>
-    <hr>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Media Hub</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
 
-    <center>
-        <h1>Contact Me</h1>
-    </center>
-    <hr>
-    <main>
+    <div class="site-container">
 
-        <section>
-    <center>
+        <header id="contact-header" class="header">
 
-        <img src="../photos/about-me.jpeg"
-        alt="My photo"
-        width="200">
+            <a href="../index.html" class="logo">
+                <span class="logo-icon">🎞</span>
+                MEDIA HUB
+            </a>
 
-        <h2>About Me</h2>
+            <nav id="contact-navigation" class="navigation">
+                <a href="../index.html">Home</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html" class="active">About</a>
+            </nav>
 
-        <p>
-            Hello! I am Daria, and I am a movie and TV shows enthusiast.
-            I enjoy discovering interesting stories,
-            memorable characters, and different genres.
-        </p>
+        </header>
 
-        <p>
-            This website is my personal collection
-            of favorite media.
-            I created it to share my interests
-            and recommendations with other people.
-        </p>
+        <main id="contact-main" class="contact-main">
 
-    </center>
-</section>
-
-        <hr>
-
-        <section>
-            <h2>My Socials</h2>
-
-            <p>
-                Feel free to contact me using the information below.
-            </p>
-
+            <section class="contact-intro">
+                <span class="eyebrow">GET TO KNOW ME</span>
+                <h1 id="contact-title">
+                    Behind the<br>
+                    Collection.
+                </h1>
                 <p>
-                    <strong>Instagram:</strong>
-
-                    <a href="https://www.instagram.com/dgussugd/"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        dgussugd
-                    </a>
+                    A little more about the person behind Media Hub.
                 </p>
+            </section>
 
-        </section>
+            <section id="about-me" class="contact-feature">
 
-    </main>
+                <div class="contact-photo">
+                    <img
+                        id="about-me-image"
+                        src="../photos/about-me.jpeg"
+                        alt="My photo">
+                </div>
+
+                <div class="contact-about">
+                    <span class="eyebrow">A LITTLE INTRODUCTION</span>
+
+                    <h2>Hi, I'm Daria.</h2>
+
+                    <p>
+                        I'm a movie and TV show enthusiast.
+                        I enjoy discovering interesting stories,
+                        memorable characters, and different genres.
+                    </p>
+
+                    <p>
+                        Media Hub is my personal collection of
+                        favorite movies and TV shows.
+                        I created it to share the stories I love
+                        and recommend them to others.
+                    </p>
+
+                    <span class="contact-sparkle">✦</span>
+                </div>
+
+            </section>
+
+            <section id="my-socials" class="socials-feature">
+
+                <div>
+                    <span class="eyebrow">LET'S CONNECT</span>
+                    <h2>Find Me Online.</h2>
+                    <p>
+                        Have a recommendation or just want to say hello?
+                        You can find me on Instagram.
+                    </p>
+                </div>
+
+                <a
+                    id="instagram-link"
+                    class="social-button"
+                    href="https://www.instagram.com/dgussugd/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Instagram &rarr;
+                </a>
+
+            </section>
+
+        </main>
+
+        <footer id="contact-footer" class="footer">
+            <span>MEDIA HUB © 2026</span>
+            <span>Curated with love for great stories ✦</span>
+        </footer>
+
+    </div>
 
 </body>
 </html>

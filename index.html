@@ -1,58 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Hub</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header align="right">
-        <nav>
-            <a href="../index.html">Home</a> | 
-            <a href="pages/contact.html">Contact</a> 
-        </nav>
-    </header>
-    <hr>
-    <section>
-        <div>
-            <center>
-            <h1> MEDIA HUB</h1>
-            <h4>Welcome to my personal collection of favorite
-            movies and TV shows!</h4>
-            <center>
-        </div>
-        <div>
-        <center>
-            <img src="photos/black-panther-quote-1.jpg"
-            alt="Quote from Black Panther"
-            width="500" height="150">
-        <center>
-        </div>
-    </section>
-    <hr>
-    <section align="center">
-        <h3>ABOUT MY WEBSITE</h3>
-        <p>This website is dedicated to movies
-                and TV shows that I love.</p>
-        <p>It is a collection of stories that I enjoy
-                watching and would like to recommend to others.</p>
-    </section>
-    <hr>
-    <section>
-        <h2 align="center">MY OTHER LISTS</h2>
-        <table width="100%" cellpadding="10">
-            <tr>
-                <td align="center" width="33%">
-                    <img src="photos/list-cover-1.jpg"
-                    alt="lists cover"
-                    width="150" height="150">
-                    <br>
-                    <p>My Favorite Movies & TV Shows of All Time</p>
-                    <a href="pages/gallery.html">
-                        <button>Go</button>
+
+    <div class="site-container">
+
+        <header id="main-header" class="header">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🎞</span>
+                MEDIA HUB
+            </a>
+
+            <nav id="main-navigation" class="navigation">
+                <a href="index.html" class="active">Home</a>
+                <a href="pages/gallery.html">Gallery</a>
+                <a href="pages/contact.html">About</a>
+            </nav>
+        </header>
+
+        <main>
+
+            <section id="welcome-section" class="hero">
+
+                <div class="hero-content">
+                    <span class="eyebrow">A PERSONAL FILM COLLECTION</span>
+
+                    <h1 id="main-title">
+                        Stories Worth<br>
+                        Watching.
+                    </h1>
+
+                    <p>
+                        Take a look at my latest collection!
+                    </p>
+
+                    <a href="pages/gallery.html" class="primary-button">
+                        Explore Collection &rarr;
                     </a>
-                </td>
-            </tr>
-        </table>
-    </section>
+
+                    <span class="hero-decoration">✦</span>
+                </div>
+
+                <div class="hero-image">
+                    <img
+                        src="photos/posters.jpg"
+                        alt="Black Panther movie quote">
+                </div>
+
+            </section>
+
+            <section id="favorites-section" class="favorites">
+
+                <div class="section-heading">
+                    <div>
+                        <span class="eyebrow">FROM MY LASTEST COLLECTION</span>
+                        <h2>My Top Favorites <span>♥︎</span></h2>
+                    </div>
+
+                    <a href="pages/gallery.html" class="text-link">
+                        View All &rarr;
+                    </a>
+                </div>
+
+                <div class="favorites-grid">
+
+                    <article class="favorite-card">
+                        <a href="pages/gallery.html#suits">
+                            <img src="photos/suits-1.jpeg" alt="Suits">
+                        </a>
+                        <h3>Suits</h3>
+                        <p>Legal Drama · TV Series · 2011</p>
+                    </article>
+
+                    <article class="favorite-card">
+                        <a href="pages/gallery.html#the-diplomat">
+                            <img src="photos/the-diplomat-1.JPG" alt="The Diplomat">
+                        </a>
+                        <h3>The Diplomat</h3>
+                        <p>Political Drama · TV Series · 2023</p>
+                    </article>
+
+                    <article class="favorite-card">
+                        <a href="pages/gallery.html#the-mentalist">
+                            <img src="photos/the-mentalist-3.jpeg" alt="The Mentalist">
+                        </a>
+                        <h3>The Mentalist</h3>
+                        <p>Crime Drama · TV Series · 2008</p>
+                    </article>
+
+                    <article class="favorite-card">
+                        <a href="pages/gallery.html#miss-sloane">
+                            <img src="photos/miss-sloane-2.JPG" alt="Movie collection">
+                        </a>
+                        <h3>Miss Sloane</h3>
+                        <p>Political Thriller · Movie · 2018</p>
+                    </article>
+
+                </div>
+
+            </section>
+
+            <section id="about-section" class="about-feature">
+
+                <div class="about-image">
+                    <img
+                        src="photos/main-aboutme.png"
+                        alt="My favorite movies and TV shows">
+                </div>
+
+                <div class="about-content">
+                    <span class="eyebrow">BEHIND THE COLLECTION</span>
+
+                    <h2>
+                        Made for<br>
+                        Movie Lovers.
+                    </h2>
+
+                
+
+                    <a href="pages/contact.html" class="outline-button">
+                        About Me &rarr;
+                    </a>
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer id="main-footer" class="footer">
+            <span>MEDIA HUB © 2026</span>
+            <span>Curated with love for great stories ✦</span>
+        </footer>
+
+    </div>
 
 </body>
 </html>
